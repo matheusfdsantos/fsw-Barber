@@ -22,9 +22,6 @@ const BarbershopPage = async ({ params }: BarbershopPageProps) => {
     include: {
       services: true,
     },
-    include: {
-      services: true,
-    },
   })
 
   if (!barbershop) {
